@@ -8,7 +8,7 @@ jobs:
     name: Build and Push to GCP
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: api-gateway
+      IMAGE_NAME: frontend
       PROJECT_ID: devops-00000
       ARTIFACT_REG: asia-southeast1-docker.pkg.dev
       IMAGE_REPO: micro
